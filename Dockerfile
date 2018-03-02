@@ -1,8 +1,8 @@
-FROM alpine:latest
+FROM alpine:3.5
 
-MAINTAINER resyst-it <florian.cauzardjarry@gmail.com>
+MAINTAINER Hans van den Bogert <hansbogert@gmail.com>
 
-RUN apk --update add bind
+RUN apk --update add 'bind<9.11'
 
 EXPOSE 53
 
