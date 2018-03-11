@@ -1,8 +1,8 @@
-FROM alpine:3.5
+FROM alpine:3.6
 
 MAINTAINER Hans van den Bogert <hansbogert@gmail.com>
 
-RUN apk --update add 'bind<9.11'
+RUN apk --update add 'bind<9.12'
 
 EXPOSE 53
 
